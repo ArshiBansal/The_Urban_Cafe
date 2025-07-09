@@ -1,0 +1,161 @@
+/* ===== GENERAL STYLING ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #f5f0eb !important; /* Cream background */
+  border-bottom: 4px solid #4b2e2b;     /* Espresso brown underline */
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+/* ===== NAV LINKS LEFT ===== */
+.navbar-nav .nav-link {
+  color: #2f2f2f !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c97449 !important; /* Burnt copper hover */
+}
+
+/* ===== LOGO CENTER ===== */
+.navbar-brand img {
+  height: 50px;
+}
+
+/* ===== RIGHT ICONS ===== */
+.nav-icons div {
+  color: #4b2e2b;
+  font-size: 0.75rem;
+  text-align: center;
+  margin-left: 1rem;
+}
+
+.nav-icons i {
+  display: block;
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+  color: #4b2e2b;
+}
+
+/* ===== RESPONSIVE TOGGLER ===== */
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* ===== MOBILE VIEW COLLAPSE FIX ===== */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #f5f0eb;
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.25rem 0;
+  }
+
+  .nav-icons {
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  .nav-icons div {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+}
+
+.hero-section {
+  margin-top: 80px; /* Adjust if navbar height changes */
+}
+
+.hero-section .row {
+  height: 90%;
+}
+
+.hero-section .col-md-6 > div {
+  height: 90%;
+}
+
+.flavor-banner {
+  background-color: #1f1b1b; /* deep espresso brown */
+}
+
+/* Optional: Card hover effect */
+.border:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  transform: translateY(-4px);
+}
+
+/* Slightly reduce image size if needed */
+.img-fluid {
+  max-height: 250px;
+  object-fit: contain;
+}
+
+/* Optional hover effect */
+.border:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  transform: translateY(-4px);
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-5px);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-caption {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 100%;
+  max-width: 420px;
+  min-height: 120px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .custom-caption {
+    left: 15px;
+    right: 15px;
+    max-width: none;
+    padding: 1rem;
+    min-height: auto;
+  }
+}
