@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Espresso Lane</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Bootstrap & FontAwesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="Rewards.css" />
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="row w-100 align-items-center">
+      
+      <!-- Left Nav -->
+      <div class="col-4 d-flex align-items-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars text-dark"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse show d-lg-flex flex-column flex-lg-row" id="navbarLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2"><a class="nav-link" href="home.html">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="OurStory.html">Our Story</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="Menu.html">Menu</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="#">Rewards and Offers</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="#">Gifts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Logo -->
+      <div class="col-4 text-center">
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="navbar.png" alt="Espresso Lane" />
+        </a>
+      </div>
+
+      <!-- Icons -->
+      <div class="col-4 d-flex justify-content-end align-items-center nav-icons pr-3">
+        <div class="text-center mr-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>Store Locator</div>
+        </div>
+        <a href="Design.html" class="text-center mr-4 text-decoration-none">
+          <i class="fas fa-mug-hot"></i>
+          <div>Design Your Cup</div>
+        </a>
+        <a href="Login.html" class="text-center text-decoration-none">
+          <i class="fas fa-user"></i>
+          <div>Log-in</div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- Rewards That Brew Your Loyalty Banner -->
+<section class="text-white d-flex align-items-center" style="background-image: url('rewards/rewardsbanner.jpg'); background-size: cover; background-position: center; height: 80vh;">
+  <div class="container text-center" style="background-color: rgba(0, 0, 0, 0.5); padding: 3rem; border-radius: 8px;">
+    <h1 class="display-4 font-weight-bold">Rewards That Brew Your Loyalty</h1>
+    <p class="lead mt-3">Every sip takes you closer to something special.</p>
+    <a href="#earn-section" class="btn btn-dark btn-lg mt-4">Start Earning</a>
+  </div>
+</section>
+
+<!-- Earn Every Sip -->
+<section id="earn-section" class="earn-section d-flex align-items-center bg-light">
+  <div class="container text-center">
+    <h2 class="section-heading mb-5">Earn Every Sip</h2>
+    <div class="row">
+      <!-- Method 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 earn-card p-4">
+          <h5>Order In-Store</h5>
+          <p>Earn 2 stars per ₹200 when you scan your member QR while paying at any Espresso Lane outlet.</p>
+        </div>
+      </div>
+      <!-- Method 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 earn-card p-4">
+          <h5>Order via App</h5>
+          <p>Place orders ahead through the app and earn stars automatically when you pay.</p>
+        </div>
+      </div>
+      <!-- Method 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 earn-card p-4">
+          <h5>Pay with Espresso Lane Card</h5>
+          <p>Link your card and get 3 stars per ₹250 every time you purchase.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Exclusive Member Perks -->
+<section id="perks" class="member-perks-alt py-5">
+  <div class="container">
+    <h2 class="section-heading text-center mb-5">Exclusive Member Perks</h2>
+
+    <!-- Perk 1 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 text-center">
+        <img src="rewards/gift.jpg" alt="Birthday Treat" class="img-fluid perk-img">
+      </div>
+      <div class="col-md-6">
+        <h4 class="perk-title">Celebrate You</h4>
+        <p class="perk-text">Get a free handcrafted drink on your birthday — because your day should start with your favorite brew.</p>
+      </div>
+    </div>
+
+    <!-- Perk 2 -->
+    <div class="row align-items-center flex-md-row-reverse mb-5">
+      <div class="col-md-6 text-center">
+        <img src="rewards/access.png" alt="Early Access" class="img-fluid perk-img">
+      </div>
+      <div class="col-md-6">
+        <h4 class="perk-title">Sip It Before They Do</h4>
+        <p class="perk-text">Members get first access to new seasonal drinks and limited-edition blends.</p>
+      </div>
+    </div>
+
+    <!-- Perk 3 -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6 text-center">
+        <img src="rewards/offerbadge.jpg" alt="Exclusive Offers" class="img-fluid perk-img">
+      </div>
+      <div class="col-md-6">
+        <h4 class="perk-title">Exclusive Sips & Deals</h4>
+        <p class="perk-text">Enjoy members-only offers, BOGO drinks, and early bird discounts sent straight to your inbox.</p>
+      </div>
+    </div>
+
+    <!-- Perk 4 -->
+    <div class="row align-items-center flex-md-row-reverse mb-4">
+      <div class="col-md-6 text-center">
+        <img src="rewards/designcup.jpg" alt="Free Customizations" class="img-fluid perk-img">
+      </div>
+      <div class="col-md-6">
+        <h4 class="perk-title">Free Customizations</h4>
+        <p class="perk-text">From extra espresso to dairy-free alternatives — customize your cup at no extra cost.</p>
+      </div>
+    </div>
+
+    <!-- CTA Button -->
+    <div class="text-center mt-4">
+      <a href="Login.html" class="btn btn-dark btn-lg rounded-pill px-5">Join the Club</a>
+    </div>
+  </div>
+</section>
+
+<!-- How to Redeem -->
+<section id="redeem" class="how-redeem py-5">
+  <div class="container text-center">
+    <h2 class="section-heading mb-5">How to Redeem Your Stars</h2>
+    <div class="row justify-content-center">
+
+      <!-- Step 1: Buy -->
+      <div class="col-md-4 mb-4">
+        <div class="redeem-step p-4 h-100">
+          <img src="rewards/order.jpg" alt="Step 1 - Buy" class="redeem-icon mb-4">
+          <h5 class="font-weight-bold">1. Make a Purchase</h5>
+          <p>Order your favorite drink or snack and scan your Espresso Lane app.</p>
+        </div>
+      </div>
+
+      <!-- Step 2: Earn -->
+      <div class="col-md-4 mb-4">
+        <div class="redeem-step p-4 h-100">
+          <img src="rewards/stars.png" alt="Step 2 - Earn" class="redeem-icon mb-4">
+          <h5 class="font-weight-bold">2. Earn Stars</h5>
+          <p>Collect stars automatically — 2 stars per ₹10 or 3 stars with the card.</p>
+        </div>
+      </div>
+
+      <!-- Step 3: Redeem -->
+      <div class="col-md-4 mb-4">
+        <div class="redeem-step p-4 h-100">
+          <img src="rewards/redeem.jpg" alt="Step 3 - Redeem" class="redeem-icon mb-4">
+          <h5 class="font-weight-bold">3. Redeem Rewards</h5>
+          <p>Exchange stars for free drinks, customizations, or exclusive merchandise.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQs Section -->
+<section id="faqs" class="faq-section py-5">
+  <div class="container">
+    <h2 class="section-heading text-center mb-5">Rewards & Offers FAQs</h2>
+
+    <div id="faqAccordion" class="accordion">
+
+      <!-- FAQ 1 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading1">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed w-100 text-left d-flex justify-content-between align-items-center"
+              data-toggle="collapse" data-target="#faq1" aria-expanded="false" aria-controls="faq1">
+              How do I start earning stars at Espresso Lane?
+              <i class="fas fa-chevron-down rotate-icon"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="faq1" class="collapse" aria-labelledby="faqHeading1" data-parent="#faqAccordion">
+          <div class="card-body">
+            Simply download the Espresso Lane app, create a free account, and scan your app whenever you make a purchase in-store or online.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading2">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed w-100 text-left d-flex justify-content-between align-items-center"
+              data-toggle="collapse" data-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              How many stars do I earn per purchase?
+              <i class="fas fa-chevron-down rotate-icon"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="faq2" class="collapse" aria-labelledby="faqHeading2" data-parent="#faqAccordion">
+          <div class="card-body">
+            You earn 2 stars for every ₹10 you spend. Use your Espresso Lane card and earn 3 stars for every ₹10!
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading3">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed w-100 text-left d-flex justify-content-between align-items-center"
+              data-toggle="collapse" data-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              How can I redeem my stars for rewards?
+              <i class="fas fa-chevron-down rotate-icon"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="faq3" class="collapse" aria-labelledby="faqHeading3" data-parent="#faqAccordion">
+          <div class="card-body">
+            You can redeem stars directly in the app or at checkout. Just select a reward and present your code to the barista.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading4">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed w-100 text-left d-flex justify-content-between align-items-center"
+              data-toggle="collapse" data-target="#faq4" aria-expanded="false" aria-controls="faq4">
+              Do my stars expire?
+              <i class="fas fa-chevron-down rotate-icon"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="faq4" class="collapse" aria-labelledby="faqHeading4" data-parent="#faqAccordion">
+          <div class="card-body">
+            Yes, stars expire 6 months after the month they were earned. Don’t worry — we’ll remind you before they do!
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="card">
+        <div class="card-header" id="faqHeading5">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed w-100 text-left d-flex justify-content-between align-items-center"
+              data-toggle="collapse" data-target="#faq5" aria-expanded="false" aria-controls="faq5">
+              Are offers and rewards available on all menu items?
+              <i class="fas fa-chevron-down rotate-icon"></i>
+            </button>
+          </h5>
+        </div>
+        <div id="faq5" class="collapse" aria-labelledby="faqHeading5" data-parent="#faqAccordion">
+          <div class="card-body">
+            Most menu items are eligible, including seasonal favorites. However, certain limited edition items may not apply.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ===== Footer with Quick Links in Center and Social Icons ===== -->
+<hr style="border-top: 4px solid #4b2e2b; margin: 0;" />
+<footer class="pt-5" style="background-color: #f5f0eb; color: #4b2e2b;">
+  <div class="container">
+    <div class="row text-center text-md-left align-items-center">
+
+      <!-- Logo & Social Media -->
+      <div class="col-md-4 mb-4 text-center text-md-left">
+        <img src="navbar.png" alt="Espresso Lane Logo" style="height: 60px;" class="mb-3">
+        <div>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-dark"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h6 class="font-weight-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="Menu.html" class="text-dark">Menu</a></li>
+          <li><a href="Rewards.html" class="text-dark">Rewards</a></li>
+          <li><a href="Offers.html" class="text-dark">Offers</a></li>
+          <li><a href="#" class="text-dark">Store Locator</a></li>
+          <li><a href="OurStory.html" class="text-dark">Our Story</a></li>
+          <li><a href="DesignCup.html" class="text-dark">Design Your Cup</a></li>
+        </ul>
+      </div>
+
+      <!-- Brew With Us -->
+      <div class="col-md-4 mb-4 text-center text-md-left">
+        <h6 class="font-weight-bold">Brew With Us</h6>
+        <p>We're always looking for passionate baristas and creative minds. Let’s make something amazing together!</p>
+        <a href="Careers.html" class="btn btn-dark btn-sm">Join Our Team</a>
+      </div>
+
+    </div>
+
+    <hr />
+    <div class="text-center pb-3" style="font-size: 0.85rem;">© 2025 Espresso Lane. All rights reserved.</div>
+  </div>
+</footer>
+
+<!-- JS Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
