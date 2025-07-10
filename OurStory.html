@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Espresso Lane</title>
+
+  <!-- Bootstrap & FontAwesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="OurStory.css" />
+</head>
+<body>
+
+<!-- ====== NAVBAR ====== -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <div class="row w-100 align-items-center">
+      
+      <!-- Left Nav -->
+      <div class="col-4 d-flex align-items-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars text-dark"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse show d-lg-flex flex-column flex-lg-row" id="navbarLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2"><a class="nav-link" href="home.html">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="#">Our Story</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="Menu.html">Menu</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="Rewards.html">Rewards and Offers</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="#">Gifts</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Logo -->
+      <div class="col-4 text-center">
+        <a class="navbar-brand mx-auto" href="#">
+          <img src="navbar.png" alt="Espresso Lane" />
+        </a>
+      </div>
+
+      <!-- Icons -->
+      <div class="col-4 d-flex justify-content-end align-items-center nav-icons pr-3">
+        <div class="text-center mr-4">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>Store Locator</div>
+        </div>
+        <a href="Design.html" class="text-center mr-4 text-decoration-none">
+          <i class="fas fa-mug-hot"></i>
+          <div>Design Your Cup</div>
+        </a>
+        <a href="Login.html" class="text-center text-decoration-none">
+          <i class="fas fa-user"></i>
+          <div>Log-in</div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<!-- ===== Hero Banner ===== -->
+<section class="jumbotron jumbotron-fluid text-white d-flex align-items-center" style="height: 85vh; background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('ourstory/banner.jpg') center/cover no-repeat;">
+  <div class="container d-flex h-100 align-items-center">
+    <div class="text-left">
+      <h1 class="display-4 font-weight-bold">Every Sip Tells a Story</h1>
+      <p class="lead">The journey of flavor, warmth, and connection — brewed daily.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Founding Story ===== -->
+<section class="py-5" style="min-height: 100vh;">
+  <div class="container">
+    <h2 class="text-center font-weight-bold mb-5" style="font-size: 2.2rem; color: black;">The Beginning of a Brewtiful Journey</h2>
+    <div class="row justify-content-between align-items-center">
+
+      <!-- Story Content -->
+      <div class="col-md-5" style="font-size: 1.15rem; line-height: 1.8;">
+        <p>It all started with a passion for warmth — a desire to bring people together over something simple and good. Espresso Lane opened its first doors in a cozy corner of the city, serving just a handful of blends made with heart.</p>
+        <p>Driven by a dream to create more than just coffee, we envisioned a space where people could pause, breathe, and connect — a neighborhood café that felt like a second home.</p>
+        <p>From those early days of handwritten menus and baristas who knew every name, we’ve grown into a community favorite — but our heart hasn’t changed. Every bean we roast still tells the story of where we came from — and where we're going.</p>
+        <p class="mb-0 font-italic text-muted">“We didn't set out to start a brand. We just wanted to serve joy — one cup at a time.”</p>
+      </div>
+
+      <!-- Spacer -->
+      <div class="d-none d-md-block col-md-1"></div>
+
+      <!-- Larger Image -->
+      <div class="col-md-5 mb-4 mb-md-0">
+        <img src="ourstory/cafe.jpg" class="rounded shadow" alt="Our First Café" style="width: 100%; height: 75vh; object-fit: cover;">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Mission and Values ===== -->
+<section id="mission-values" class="py-5" style="height: 75vh;">
+  <div class="container text-center">
+    <h2 class="font-weight-bold mb-5">Our Mission & Values</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="mission-box">
+          <i class="fas fa-mug-hot fa-3x"></i>
+          <h5>Craft with Care</h5>
+          <p>We brew every cup with passion, precision, and a touch of magic.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="mission-box">
+          <i class="fas fa-leaf fa-3x"></i>
+          <h5>Sustainability</h5>
+          <p>Our beans are responsibly sourced and our cups eco-conscious.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="mission-box">
+          <i class="fas fa-heart fa-3x"></i>
+          <h5>People First</h5>
+          <p>From baristas to guests, every human connection matters to us.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== The Team Behind the Brew ===== -->
+<section class="py-5" style="background-color: white">
+  <div class="container">
+    <h2 class="text-center font-weight-bold mb-5" style="font-size: 2.2rem; color: black;"> Meet the Team Behind the Brew</h2>
+    <div class="row text-center">
+
+      <!-- Team Member Card -->
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem1.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Founder">
+          <h5 class="font-weight-bold">Arjun Bhatia</h5>
+          <p class="text-muted">Founder & Head Roaster</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem4.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Manager">
+          <h5 class="font-weight-bold">Neha Sharma</h5>
+          <p class="text-muted">Store Operations Manager</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem2.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Barista">
+          <h5 class="font-weight-bold">Ravi Desai</h5>
+          <p class="text-muted">Master Barista</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem5.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Quality">
+          <h5 class="font-weight-bold">Sana Mehra</h5>
+          <p class="text-muted">Quality & Sourcing Lead</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem3.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Marketing">
+          <h5 class="font-weight-bold">Rohan Iyer</h5>
+          <p class="text-muted">Marketing Strategist</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="team-member-card p-4 bg-white rounded shadow">
+          <img src="ourstory/mem6.jpg" class="rounded-circle mb-3" width="200" height="200" alt="Community">
+          <h5 class="font-weight-bold">Ishita Kapoor</h5>
+          <p class="text-muted">Community Manager</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== Customer Love (Carousel) ===== -->
+<section class="bg-light py-5" style="min-height: 70vh;">
+  <div class="container">
+    <h2 class="text-center font-weight-bold mb-5" style="font-size: 2.2rem; color: black;">Customer Love</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row text-center">
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"Espresso Lane is my happy place — the drinks, the vibes, the people!"</p>
+                  <footer class="blockquote-footer mt-2">Ananya M.</footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"They’ve mastered both the classics and the creative blends."</p>
+                  <footer class="blockquote-footer mt-2">Rahul P.</footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"It’s not just coffee. It’s comfort in a cup."</p>
+                  <footer class="blockquote-footer mt-2">Priya K.</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row text-center">
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"Their seasonal brews are always a treat!"</p>
+                  <footer class="blockquote-footer mt-2">Ritika S.</footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"Love how the staff remembers my order. Feels like home."</p>
+                  <footer class="blockquote-footer mt-2">Vikram J.</footer>
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="p-4 bg-white shadow-sm h-100 rounded">
+                <blockquote class="blockquote mb-0">
+                  <p>"The café aesthetic is unbeatable. Instagram heaven!"</p>
+                  <footer class="blockquote-footer mt-2">Megha D.</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Feedback Form Section ===== -->
+<section class="py-5" style="background-color: #ffffff; color: #000;">
+  <div class="container">
+    <h2 class="text-center font-weight-bold mb-3">We'd Love Your Feedback</h2>
+    <p class="text-center mb-4">Your thoughts help us craft every cup better. Got a moment?</p>
+
+    <div class="mx-auto card p-4 shadow" style="max-width: 600px;">
+      <form id="feedbackForm">
+        <div class="form-group">
+          <label for="name">Name<span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="name" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email<span class="text-danger">*</span></label>
+          <input type="email" class="form-control" id="email" required placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="feedback">Your Feedback<span class="text-danger">*</span></label>
+          <textarea class="form-control" id="feedback" rows="4" required placeholder="Share your experience..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark btn-block">Submit Feedback</button>
+      </form>
+
+      <div id="feedbackMsg" class="mt-4 text-center text-success font-weight-bold" style="display: none;">
+        Thank you for your feedback! 
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer with Quick Links in Center and Social Icons ===== -->
+<hr style="border-top: 4px solid #4b2e2b; margin: 0;" />
+<footer class="pt-5" style="background-color: #f5f0eb; color: #4b2e2b;">
+  <div class="container">
+    <div class="row text-center text-md-left align-items-center">
+
+      <!-- Logo & Social Media -->
+      <div class="col-md-4 mb-4 text-center text-md-left">
+        <img src="navbar.png" alt="Espresso Lane Logo" style="height: 60px;" class="mb-3">
+        <div>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="#" class="text-dark mr-3"><i class="fab fa-twitter fa-lg"></i></a>
+          <a href="#" class="text-dark"><i class="fab fa-youtube fa-lg"></i></a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4">
+        <h6 class="font-weight-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="Menu.html" class="text-dark">Menu</a></li>
+          <li><a href="Rewards.html" class="text-dark">Rewards</a></li>
+          <li><a href="Offers.html" class="text-dark">Offers</a></li>
+          <li><a href="#" class="text-dark">Store Locator</a></li>
+          <li><a href="OurStory.html" class="text-dark">Our Story</a></li>
+          <li><a href="DesignCup.html" class="text-dark">Design Your Cup</a></li>
+        </ul>
+      </div>
+
+      <!-- Brew With Us -->
+      <div class="col-md-4 mb-4 text-center text-md-left">
+        <h6 class="font-weight-bold">Brew With Us</h6>
+        <p>We're always looking for passionate baristas and creative minds. Let’s make something amazing together!</p>
+        <a href="Careers.html" class="btn btn-dark btn-sm">Join Our Team</a>
+      </div>
+
+    </div>
+
+    <hr />
+    <div class="text-center pb-3" style="font-size: 0.85rem;">© 2025 Espresso Lane. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("feedbackForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    document.getElementById("feedbackForm").reset();
+    document.getElementById("feedbackMsg").style.display = "block";
+  });
+</script>
+
+<!-- JS Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
