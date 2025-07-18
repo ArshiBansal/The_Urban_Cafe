@@ -83,16 +83,16 @@ body {
   }
 }
 
-.hero-section {
-  margin-top: 80px; /* Adjust if navbar height changes */
+.hero-section{
+  margin-top: 0px;
 }
 
 .hero-section .row {
-  height: 90%;
+  height: 80%;
 }
 
 .hero-section .col-md-6 > div {
-  height: 90%;
+  height: 80%;
 }
 
 .flavor-banner {
