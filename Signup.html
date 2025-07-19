@@ -1,23 +1,22 @@
 <div class="px-4 py-3">
   <div class="text-center mb-4">
-    <img src="navbar.png" alt="Espresso Lane Logo" style="height: 60px;">
-    <h4 class="mt-2 text-dark font-weight-bold">Join Espresso Lane!</h4>
+    <h4 class="mt-2 text-dark font-weight-bold">Join The Urban Cafe!</h4>
   </div>
 
-  <form>
+  <form action="signup.php" method="POST">
     <div class="form-group">
       <label class="text-dark font-weight-bold">Full Name</label>
-      <input type="text" class="form-control" placeholder="Your Name" required />
+      <input type="text" name="fullname" class="form-control" placeholder="Your Name" required />
     </div>
 
     <div class="form-group">
       <label class="text-dark font-weight-bold">Email</label>
-      <input type="email" class="form-control" placeholder="you@example.com" required />
+      <input type="email" name="email" class="form-control" placeholder="you@example.com" required />
     </div>
 
     <div class="form-group">
       <label class="text-dark font-weight-bold">Password</label>
-      <input type="password" class="form-control" placeholder="Create password" required />
+      <input type="password" name="password" class="form-control" placeholder="Create password" required />
     </div>
 
     <button type="submit" class="btn btn-dark btn-block mt-3">Sign Up</button>
