@@ -1,8 +1,8 @@
-<h1 align="center">☕ Espresso Lane – Café Website</h1>
+<h1 align="center"> The Urban Cafe – Café Website</h1>
 
 # Overview
 
-**Espresso Lane** is a responsive, multi-page café website built using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**, with integrated **PHP** form handling for login, signup, and order pages. This project is inspired by real-world coffee brands and is designed to deliver a polished, professional user experience.
+**The Urban Cafe** is a responsive, multi-page café website built using **HTML**, **CSS**, **Bootstrap**, and **JavaScript**, with integrated **PHP** form handling for login, signup, and order pages. This project is inspired by real-world coffee brands and is designed to deliver a polished, professional user experience.
 
 ---
 
@@ -46,7 +46,7 @@
 ### 🔐 With PHP Functionality:
 - Install **XAMPP** or any local PHP server.
 - Place the project folder in `/htdocs`.
-- Start Apache and access via `http://localhost/espresso-lane/`.
+- Start Apache and access via `http://localhost/The Urban Cafe/`.
 - Navigate to Login, Signup, or Order pages to test PHP form submissions.
 
 > ⚠️ Form actions are functional using PHP but not yet connected to a database. Data handling is for demonstration only.
